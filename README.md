@@ -22,8 +22,8 @@ Input:
 Galaxy map file:
 * Create the graph.
 * Each line contains a vertex and a list of edges with weights.
-* Each edge will be represented as <adjacent vertex>,<weight>
-* Line example: "Hoth Endor,9 Coruscant,3 Tatooine,1 Dagobah,5"
+* Each edge will be represented as `<adjacent vertex>,<weight>`
+* Line example: `Hoth Endor,9 Coruscant,3 Tatooine,1 Dagobah,5`
 * All vertices have at least one edge.
 Pilot routes file:
 * Each line in the file contains pilot name followed by list of planet routes.
@@ -31,5 +31,5 @@ Pilot routes file:
 * The first vertex is the starting point.
 * Each line represents a different pilot.
 Output:
-* <pilot name> \t <path weight> \t <valid/invalid>
-* All input/outputs are performed with files.
+  * `<pilot name> \t <path weight> \t <valid/invalid>`
+  * All input/outputs are performed with files.
